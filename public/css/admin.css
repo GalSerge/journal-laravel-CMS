@@ -1,0 +1,167 @@
+li.edit-item {
+    list-style-type: none;
+    padding: 4px 0px;
+}
+
+ul.parent {
+    padding-left: 0;
+}
+
+/*.row-admin {*/
+/*    margin-left: -100px;*/
+/*}*/
+
+.admin-enter-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.admin-enter-logo {
+    width: 60%;
+    padding-bottom: 10px;
+}
+
+img.editor-img {
+    height: 120px;
+}
+
+.panel {
+    margin-top: 10%;
+}
+
+.h1 {
+    margin-bottom: 20px;
+}
+
+
+.admin-name {
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.big-title {
+    font-size: 16px;
+}
+
+.panel-title {
+    font-size: 12px;
+}
+
+/*============================*/
+
+#wrapper {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #f6f3ee;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 0;
+}
+
+#page-content-wrapper {
+    padding: 20px;
+    position: relative;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #333132;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    background: #e3d8c8;
+}
+
+.sidebar-nav li.exit a:hover {
+    text-decoration: none;
+    background: #d9534f;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    border-top: 0;
+    padding: 10px 0;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #333132;
+}
+
+.sidebar-nav > .sidebar-brand {
+    background: #e3d8c8;
+}
+
+.content {
+    padding-right: 20%;
+    padding-left: 5%;
+    margin-bottom: 150px;
+}
+
+#wrapper.toggled {
+    padding-left: 0;
+}
+
+@media(max-width:768px) {
+    .content {
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 150px;
+    }
+}
+
+
